@@ -43,6 +43,8 @@ public class Ejercicio2 {
 		
 		System.out.println("Su DNI es: "+dni+letra);
 		
+		sc.close();
+		
 	}
 
 }

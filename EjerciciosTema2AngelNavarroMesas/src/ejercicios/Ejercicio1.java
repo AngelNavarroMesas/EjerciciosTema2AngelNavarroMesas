@@ -62,6 +62,8 @@ public class Ejercicio1 {
 			System.out.println("El numero introducido no es capicuo");
 		}
 		
+		sc.close();
+		
 	}
 
 }
