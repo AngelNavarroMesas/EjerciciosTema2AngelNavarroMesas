@@ -55,7 +55,6 @@ public class Ejercicio1 {
 		}
 		
 		
-		
 		if(num==mun) {
 			System.out.println("El numero introducido es capicuo");
 		}else {
