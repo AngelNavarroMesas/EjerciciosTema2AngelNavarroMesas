@@ -7,14 +7,18 @@ public class Ejercicio2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		//Declaramos las variables
 		int dni, calculoletra;
 		String letra = null;
 		
+		//Le pedimos al usuario que introduzca su dni y lo escaneamos
 		System.out.println("Introduzca los numeros de su dni");
 		dni = sc.nextInt();
 		
+		//Hacemos los calculos para averiguar la letra que le corresponde sengun su numero
 		calculoletra = dni%23;
 		
+		//Le damos un valor a la variable letra dependiendo del numero de la operacion anterior
 		switch(calculoletra) {
 		case 0-> letra="T";
 		case 1-> letra="R";
@@ -41,6 +45,7 @@ public class Ejercicio2 {
 		case 22-> letra="E";
 		}
 		
+		//Mostramos el dni con la letra que le corresponde
 		System.out.println("Su DNI es: "+dni+letra);
 		
 		sc.close();
